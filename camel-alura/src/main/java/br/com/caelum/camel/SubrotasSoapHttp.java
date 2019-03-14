@@ -18,6 +18,8 @@ public class SubrotasSoapHttp {
 				from("file:pedidos?delay=5s&noop=true").
 						routeId("rota-principal").
 						multicast().
+						// parallelProcessing(): configuracao do multicast para chamar cada sub-rota em uma Thread separada de forma paralela.
+						// parallelProcessing().
 						to("direct:soap").
 						to("direct:http");
 
