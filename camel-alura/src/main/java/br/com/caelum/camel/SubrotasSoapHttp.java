@@ -12,6 +12,8 @@ public class SubrotasSoapHttp {
 	 * @param args
 	 * @throws Exception
 	 *
+	 * O objetivo do multicast é configurar para que cada sub-rota receba o body original.
+	 *
 	 * Esse Java doc é para explicar outra possibilidade, ao invés do multicast, o Staged event-driven architecture ou simplesmente SEDA:
 	 * A ideia do SEDA é que cada rota (e sub-rota) possua uma fila dedicada de entrada
 	 * 	e as rotas enviam mensagens para essas filas para se comunicar.
@@ -44,13 +46,18 @@ public class SubrotasSoapHttp {
 						multicast().
 						// parallelProcessing(): configuracao do multicast para chamar cada sub-rota em uma Thread separada de forma paralela.
 						// parallelProcessing().
-						to("direct:soap").
-						to("direct:http");
+						// to("direct:http").
+						to("direct:soap");
 
 				from("direct:soap").
 						routeId("rota-soap").
-						log("chamando servico soap ${body}").
+						to("xslt:pedido-para-soap.xslt").
+							log("Resultado do Template: ${body}").
 						to("mock:soap");
+						/*
+							setHeader(Exchange.CONTENT_TYPE,constant("text/xml")).
+							to("http4://localhost:8080/webservices/financeiro");
+						 */
 
 				from("direct:http").
 						routeId("rota-http").
