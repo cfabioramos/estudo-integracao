@@ -7,6 +7,30 @@ import org.apache.camel.impl.DefaultCamelContext;
 
 public class SubrotasSoapHttp {
 
+	/**
+	 *
+	 * @param args
+	 * @throws Exception
+	 *
+	 * Esse Java doc é para explicar outra possibilidade, ao invés do multicast, o Staged event-driven architecture ou simplesmente SEDA:
+	 * A ideia do SEDA é que cada rota (e sub-rota) possua uma fila dedicada de entrada
+	 * 	e as rotas enviam mensagens para essas filas para se comunicar.
+	 * 	Dentro dessa arquitetura, as mensagens são chamadas de eventos.
+	 * 	A rota fica então consumindo as mensagens/eventos da fila, tudo funcionando em paralelo.
+	 *
+	 * 	Para usar SEDA basta substituir a palavra direct por seda, com isso, o multicast se tornará desnecessário:
+	 * 	from("file:pedidos?delay=5s&noop=true").
+	 *     	routeId("rota-pedidos").
+	 *     	to("seda:soap").
+	 *     	to("seda:http");
+	 *
+	 *  from("seda:soap").
+	 *     	routeId("rota-soap").
+	 *     	log("chamando servico soap ${body}").
+	 * 		to("mock:soap");
+	 *	...
+	 */
+
 	public static void main(String[] args) throws Exception {
 
 		CamelContext context = new DefaultCamelContext();
