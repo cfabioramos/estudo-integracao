@@ -3,8 +3,11 @@ package br.com.caelum.camel;
 import org.apache.activemq.camel.component.ActiveMQComponent;
 import org.apache.camel.CamelContext;
 import org.apache.camel.Exchange;
+import org.apache.camel.Message;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
+
+import javax.jms.MessageListener;
 
 public class SubrotasSoapHttpFromActiveMQ {
 
@@ -29,6 +32,20 @@ public class SubrotasSoapHttpFromActiveMQ {
                                     int max = (int) exchange.getIn().getHeader(Exchange.REDELIVERY_MAX_COUNTER);
                                     System.out.println("Redelivery - " + counter + "/" + max);
                                 }));
+
+                /*
+                    Com o Camel sendo o consumidor das mensagens,
+                    não é tão necessário usar esse MessageListener,
+                    no entanto, nada impede cadastrá-lo.
+                 */
+                /*
+                from("activemq:queue:pedidos.req").
+                        bean(TratadorMensagemJms.class).
+                        log("Pattern: ${exchange.pattern}").
+                        setBody(constant("novo conteudo da mensagem")).
+                        setHeader(Exchange.FILE_NAME, constant("teste.txt")).
+                        to("file:saida");
+                        */
 
                 from("activemq:queue:pedidos").
                         routeId("rota-principal").
@@ -61,5 +78,12 @@ public class SubrotasSoapHttpFromActiveMQ {
         context.start();
         Thread.sleep(20000);
         context.stop();
+    }
+
+    class TratadorMensagemJms implements MessageListener { //import javax.jmx
+        @Override
+        public void onMessage(javax.jms.Message message) {
+
+        }
     }
 }
