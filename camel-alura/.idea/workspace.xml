@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -55,13 +55,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553208141885" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../camel-spring-boot-projeto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leiloes" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -187,7 +187,7 @@
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33571428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34285715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -294,11 +294,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/camel-alura/src/main/java/br/com/caelum/camel/RotaPedidos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/camel-alura/src/main/java/br/com/caelum/camel/RotaPedidos.java" />
     <entry file="file://$PROJECT_DIR$/pedidos/1_pedido.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">

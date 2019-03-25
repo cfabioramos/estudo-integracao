@@ -1,0 +1,7 @@
+Esse leiloes é para testes de integração
+
+para rodar:
+ant jetty.run
+
+rest-assured:
+https://github.com/rest-assured/rest-assured
