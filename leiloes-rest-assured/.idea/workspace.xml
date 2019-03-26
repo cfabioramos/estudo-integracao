@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/teste/UsuariosWSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="191">
+              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://$PROJECT_DIR$/lib/rest-assured-1.8.1.jar!/com/jayway/restassured/path/json/JsonPath.class">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/modelo/Leilao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -136,7 +136,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553546802551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553618131842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -191,43 +191,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 15h 12m 47s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 11h 44m 02s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 15h 13m 43s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 11h 50m 11s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 15h 31m 01s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 15m 35s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 15h 41m 11s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 15m 56s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 15h 56m 13s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 18m 46s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 16h 18m 00s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 18m 56s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 17h 33m 15s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 19m 36s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 17h 33m 50s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 21m 11s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UsuariosWSTest - 2019.03.25 at 17h 35m 29s.xml">
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 28m 53s.xml">
+      <configuration name="UsuariosWSTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UsuariosWSTest - 2019.03.26 at 13h 31m 20s.xml">
       <configuration name="UsuariosWSTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2744898" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2744898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -235,7 +239,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38625205" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38625205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,6 +253,90 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2744898" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.38625205" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/caelum/leilao/teste/UsuariosWSTest.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="path.getList(&quot;list&quot;, Usuario.class)" language="JAVA" />
+        <watch expression="path.getList(&quot;&quot;, Usuario.class)" language="JAVA" />
+        <watch expression="usuarios.get(0).get(0).toString()" language="JAVA" />
+        <watch expression="usuarios.get(0).get(0)" language="JAVA" />
+        <watch expression="usuarios.get(0)" language="JAVA" />
+        <watch expression="path.getString(&quot;list[0].nome&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>path.getString(&quot;list[0].nome&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>usuarios.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>usuarios.get(0).get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>usuarios.get(0).get(0).toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.getList(&quot;&quot;, Usuario.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.getList(&quot;list&quot;, Usuario.class)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/modelo/Usuario.java">
@@ -258,20 +346,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/teste/UsuariosWSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/rest-assured-1.8.1.jar!/com/jayway/restassured/path/json/JsonPath.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/modelo/Leilao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leilao/teste/UsuariosWSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
